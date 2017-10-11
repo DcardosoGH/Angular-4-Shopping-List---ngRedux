@@ -2,7 +2,6 @@ import { Store } from '@ngrx/store';
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
-import { AuthService } from '../auth.service';
 import * as fromApp from '../../store/app.reducers';
 import * as authActions from '../store/auth.actions';
 

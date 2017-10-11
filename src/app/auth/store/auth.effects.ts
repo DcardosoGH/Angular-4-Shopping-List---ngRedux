@@ -2,9 +2,9 @@ import { Router } from '@angular/router';
 import { Injectable } from '@angular/core';
 import {Effect, Actions} from '@ngrx/effects';
 import * as AuthActions from './auth.actions';
-// import 'rxjs/add/operator/map'
+import 'rxjs'
 // import 'rxjx/add/operator/switchMap';
-// import 'rxjx/add/operator/mergeMap';
+//import 'rxjx/add/operator/mergeMap';
 import * as firebase from 'firebase';
 import { fromPromise } from 'rxjs/observable/fromPromise'
 
